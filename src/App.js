@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import AppAppBar from './appBar';
+import BlogSection from './BlogSection';
+import Footer from './Footer';
+import Hero from './Hero';
+import LetsConnectForm from './LetsConnectForm';
+import WhatWeOfferSection from './whatWeofferSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <AppAppBar />
+      <Hero />
+      <WhatWeOfferSection />
+      <BlogSection />
+      <LetsConnectForm />
+      <hr style={{ background: "rgba(255, 255, 255, 0.5)" }}></hr>
+      <Footer />
+    </div >
   );
 }
 
