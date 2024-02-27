@@ -1,11 +1,16 @@
 .hero-container {
-    background: #fff;
+    background: #daedf4;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 100px 30px 30px 30px;
     position: relative;
     z-index: 1;
+}
+
+.hero-content {
+    text-align-last: left;
+    max-width: 40vw;
 }
 
 .blueC-img img {
@@ -23,11 +28,12 @@
     margin-top: 24px;
     color: #555;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
 }
 
 .hero-btns {
     margin-top: 32px;
+    max-width: 250px;
 }
 
 .hero-btns a {

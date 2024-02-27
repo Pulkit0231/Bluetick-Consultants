@@ -1,5 +1,4 @@
 .connect-form {
-    max-width: 80%;
     margin-bottom: 50px;
     text-align: left;
 }
@@ -9,13 +8,24 @@
     justify-content: space-between;
 }
 
-.form-group {
+.form-group-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    flex-basis: calc(33.33% - 10px);
+    justify-content: space-between;
+}
+
+.form-group-column {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
     flex-basis: calc(33.33% - 10px);
 }
 
-.form-group label {
-    display: block;
+.form-group-row label,
+.form-group-column label {
+
     margin-bottom: 5px;
 }
 
@@ -37,8 +47,15 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 40px;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+.form-item-cont {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
 }
