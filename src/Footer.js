@@ -18,7 +18,7 @@ function Footer() {
                 <a href="#"><FaQuora /></a>
             </div>
             <div className="copyright">
-                &copy; {new Date().getFullYear()} Company Name. All Rights Reserved.
+                &copy; {new Date().getFullYear()} Bluetick Consultants LLP. All Rights Reserved.
             </div>
         </footer>
     );
